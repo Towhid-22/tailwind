@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Tailwind CSS</title>
+  </head>
+  <body>
+    <nav class="absolute left-0 top-0 w-full z-[100] pt-[67px]">
+      <div class="container m-auto">
+        <div class="navbar flex justify-between items-center">
+          <img src="../images/logo.png" alt="" />
+          <ul class="flex gap-x-[70px]">
+            <li>
+              <a
+                class="text-white font-bold leading-[26px] text-[18px] hover:text-[#4756DF] delay-100"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-white font-bold leading-[26px] text-[18px] hover:text-[#4756DF] delay-100"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-white font-bold leading-[26px] text-[18px] hover:text-[#4756DF] delay-100"
+                href="#"
+                >Service</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-white font-bold leading-[26px] text-[18px] hover:text-[#4756DF] delay-100"
+                href="#"
+                >Careers</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-white font-bold leading-[26px] text-[18px] hover:text-[#4756DF] delay-100"
+                href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <button
+            class="bg-[#6A4DF4] text-white p-[10px] rounded-[10px] w-[162px] h-[56px] text-[20px] font-semibold"
+          >
+            Contact
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      id="banner"
+      class="relative"
+      style="
+        background-image: url(../images/banner.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      "
+    >
+      <div class="overlay bg-[rgb(0,0,0,0.6)]">
+        <div class="container m-auto">
+          <div class="banner text-center pt-[326px] pb-[126px]">
+            <h1
+              class="w-[950px] text-[75px] text-white font-bold m-auto leading-[120%]"
+            >
+              We Help brands with high quality services
+            </h1>
+            <p class="w-[600px] m-auto my-[40px] text-white leading-[26px]">
+              There are many variations of passages of Lorem Ipsum available,
+              but themajority have suffered alteration in some form, by injected
+              humour, or randomised words which don't look.
+            </p>
+            <button
+              class="bg-[#6A4DF4] text-white p-[10px] rounded-[10px] w-[162px] h-[56px] text-[20px] font-semibold block m-auto"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="success" class="my-[150px]">
+      <div class="container m-auto">
+        <div class="success flex justify-between bg-[#E0FFF9] rounded-[20px] px-[50px] py-[83px]">
+          <div>
+            <h4 class="text-[#6a4df4] text-[25px] leading-[120%] font-medium mb-[15px]">Our Success</h4>
+            <h3 class="text-[#151515] text-[35px] w-[387px] font-semibold leading-[40px]">West cost Brand makers-Global Edge</h3>
+          </div>
+          <div>
+            <h4 class="text-[50px] font-bold">200+</h4>
+            <p class="text-[20px] font-medium leading-[120%] text-[#737373]">Customer Satisfied</p>
+          </div>
+          <div>
+            <h4 class="text-[50px] font-bold">4.5</h4>
+            <p class="text-[20px] font-medium leading-[120%] text-[#737373]">200+ Avg rating</p>
+          </div>
+          <div>
+            <h4 class="text-[50px] font-bold">351+</h4>
+            <p class="text-[20px] font-medium leading-[120%] text-[#737373]">Project Delivered</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
